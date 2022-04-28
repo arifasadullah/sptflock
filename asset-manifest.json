@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sptflock/static/css/main.084d98b2.css",
+    "main.js": "/sptflock/static/js/main.231502b0.js",
+    "static/media/group.jpeg": "/sptflock/static/media/group.a385d8286635a69dfecb.jpeg",
+    "static/media/demo.jpg": "/sptflock/static/media/demo.41f831da97fde600fd43.jpg",
+    "static/media/2.png": "/sptflock/static/media/2.11ab0b7e3e1c7e33dd22.png",
+    "index.html": "/sptflock/index.html",
+    "main.084d98b2.css.map": "/sptflock/static/css/main.084d98b2.css.map",
+    "main.231502b0.js.map": "/sptflock/static/js/main.231502b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.084d98b2.css",
+    "static/js/main.231502b0.js"
+  ]
+}
