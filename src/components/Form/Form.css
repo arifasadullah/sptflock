@@ -1,0 +1,55 @@
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #f2bb4d;
+  background-image: linear-gradient(left, #f2bb4d, #f2d08c);
+  background-image: -webkit-linear-gradient(left, #f2bb4d, #f2d08c);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  -webkit-border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 36%);
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

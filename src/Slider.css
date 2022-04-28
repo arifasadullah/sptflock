@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.slider{
+    background:  url("demo.jpg");
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+    padding: 50px 10px;
+}
+
+.dialogue{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.line1,.line3, .line4, .line5{
+    color: #FCCA03;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+.line2{
+    font-size: 65px;
+    font-family: Raleway;
+    font-weight: 700px;
+    margin: 20px 0;
+}

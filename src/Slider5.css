@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.slider5{
+    height: 100vh;
+    width: 100%;
+    background:  url("group.jpeg");
+}
+
+.overlay{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    
+}
+
+.topic{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title1, .title2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title3{
+    color: #F2BB4D;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.colab-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2BB4D;
+    height: 55px;
+    width: 25%;
+    margin-top: 300px;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    
+}

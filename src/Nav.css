@@ -1,0 +1,26 @@
+.bar{
+    background-color: #FCCA03;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:100px;
+    margin-right:100px;
+    border-radius: 15px;
+    font-family: Poppins, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.logo img{
+    height: 70px;
+    margin-left: 30px;
+}
+
+.tabs{
+    display: flex ;
+    font-size: 15px;
+    
+}
+
+.tab{
+    margin-right: 30px;
+}

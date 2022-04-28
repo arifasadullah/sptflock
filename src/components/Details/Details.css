@@ -1,0 +1,17 @@
+.heading {
+  text-align: center;
+  font-size: 36px !important;
+  font-size: 44px;
+  line-height: 1.25;
+  margin-bottom: 24px;
+  position: relative;
+}
+.h-gap {
+  text-align: center;
+}
+.sub-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+}

@@ -1,0 +1,96 @@
+.card_container {
+  display: flex;
+  margin-bottom: 10%;
+}
+.card_wrapper {
+  position: relative;
+  width: 25%;
+  height: 30%;
+  padding: 5%;
+  background-color: #fff;
+}
+.small_cicle {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin-left: 26%;
+  top: 16%;
+  background-color: #515251;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-border-radius: 24px;
+  -khtml-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  left: 8px;
+  -webkit-transition: all 300ms linear 0ms;
+  -khtml-transition: all 300ms linear 0ms;
+  -moz-transition: all 300ms linear 0ms;
+  -ms-transition: all 300ms linear 0ms;
+  -o-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+}
+.number {
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 162px;
+  height: 162px;
+  z-index: -1;
+  border-radius: 100%;
+  /* overflow: hidden; */
+  background-color: rgb(211, 221, 232);
+}
+
+.semi_circle {
+  position: absolute;
+  top: 34%;
+  left: 35%;
+  transform: rotate(120deg);
+  height: 90px;
+  width: 180px;
+  border-radius: 150px 150px 0 0;
+  background-color: #9499a6;
+  z-index: 1;
+}
+
+.offer_card_img {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  max-width: 100px;
+  z-index: 10;
+}
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(37, 42, 55);
+  margin-bottom: 6px;
+  width: 100%;
+  margin-top: 15%;
+  text-align: center;
+  z-index: 50;
+}
+.title_desc {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 50%;
+  left: -3%;
+  top: 45%;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
